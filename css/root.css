@@ -1,0 +1,13 @@
+:root{
+
+    /*  FONTS */
+    --gotu: "Gotu", sans-serif;
+    --goldman: "Goldman", sans-serif;
+
+    /* COLOURS  */
+    --black: #000C01;
+    --green: #00684A;
+    --gray: #929292;
+    --light-gray: #F8F8F8;
+    --white: #FCFCFC;
+}

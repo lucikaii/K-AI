@@ -1,0 +1,89 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background: var(--black);
+    display: grid;
+}
+main{
+    height: 94.44%;
+    width: 97.22%;
+    background: var(--white);
+    padding: 25px 30px 25px 30px;
+    display: flex;
+    border-radius: 30px;
+    justify-self: center;
+    align-self: center;
+    justify-content: space-between;
+}
+.content{
+    height: 100%;
+    width: 60%;
+    display: grid;
+    padding-top: 35px;
+    justify-content: center;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+}
+h1{
+    font-size: 64px;
+    font-family: var(--goldman);
+    justify-self: center;
+}
+p{
+    font-size: 20px;
+    font-family: var(--gotu);
+    justify-self: center;
+}
+.form{
+    display: grid;
+    justify-self: center;
+}
+.input{
+    height: 50px;
+    width: 700px;
+    border: 1px solid var(--black);
+    background: var(--light-gray);
+    border-radius: 16px;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.bi-at{
+    font-size: 24px;
+    color: var(--black);
+}
+input{
+    height: 100%;
+    width: 95%;
+    border: 0;
+    outline: 0;
+    background: none;
+    color: var(--gray);
+    font-size: 20px;
+    font-family: var(--gotu);
+}
+button{
+    height: 50px;
+    width: 200px;
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--gotu);
+    font-size: 20px;
+    border-radius: 16px;
+    justify-self: center;
+}
+.ad{
+    height: 94.50%;
+    width: 40%;
+    background: var(--black);
+    border-radius: 50px;
+    align-self: center;
+}
+.bi-arrow-right{
+    color: var(--white);
+}
