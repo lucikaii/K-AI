@@ -1,0 +1,115 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background: var(--black);
+    display: grid;
+}
+main{
+    height: 94.44%;
+    width: 97.22%;
+    background: var(--white);
+    padding: 30px;
+    display: grid;
+    border-radius: 30px;
+    justify-self: center;
+    align-self: center;
+}
+
+/* ANSWER PT */
+.answer-pt{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.answer-pt-input{
+    height: 180px;
+    width: 650px;
+    border-radius: 0 20px 20px 20px;
+    outline: 0;
+    font-size: 20px;
+    font-family: var(--gotu);
+    color: var(--gray);
+}
+.answer-pt-input::placeholder{
+    font-family: var(--gotu);
+    color: var(--gray);
+}
+
+/* ANSWER EN */
+.answer-en{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.answer-en-input{
+    height: 180px;
+    width: 650px;
+    background: var(--green);
+    border-radius: 20px 0 20px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    font-family: var(--gotu);
+    color: #FFF;
+}
+.answer-en-input::placeholder{
+    font-family: var(--gotu);
+    color: #FFF;
+}
+
+
+/* IMG */
+img{
+    height: 30px;
+    width: 50px;
+    border-radius: 8px;
+}
+/* INPUT BUTTON */
+.input-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.question{
+    height: 60px;
+    width: 85%;
+    border: 2px solid var(--black);
+    background: var(--light-gray);
+    padding-left: 25px;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: var(--gotu);
+    color: var(--gray);
+}
+.send-button{
+    height: 60px;
+    width: 140px;
+    background: var(--black);
+    border: 0;
+    color: var(--white);
+    font-size: 20px;
+    font-family: var(--gotu);
+    border-radius: 20px;
+}
+.send-button:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+.translate-button{
+    height: 60px;
+    width: 60px;
+    background: var(--black);
+    border: 0;
+    color: var(--white);
+    font-size: 20px;
+    border-radius: 20px;
+}
+.translate-button:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
